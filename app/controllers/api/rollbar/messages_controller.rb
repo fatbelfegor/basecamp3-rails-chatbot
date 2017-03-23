@@ -9,7 +9,7 @@ class Api::Rollbar::MessagesController < ApplicationController
     # Get the failed JSON request message
     request_error =  payload[:error]
 
-    # Store parsed dada from Rollerbar
+    # Store parsed dada from Rollbar
     event = payload['event_name']
     data = payload['data']
 
