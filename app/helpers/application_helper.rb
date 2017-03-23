@@ -4,7 +4,6 @@ module ApplicationHelper
 
   # Parse JSON request from remote calback server
   def parse_webhook
-
     # Handle exceptions in case of failed request  
     begin
       JSON.parse request.body.read
