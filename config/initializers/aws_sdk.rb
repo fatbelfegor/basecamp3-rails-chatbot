@@ -2,7 +2,7 @@
 aws_secret_file = Rails.configuration.service['aws_secret_file']
 aws_region = Rails.configuration.service['aws_secret_file']
 
-if (defined?(aws_secret_file)).nil? 
+if aws_secret_file.nil? 
 	credentials = Aws::InstanceProfileCredentials.new
 	Aws.config.update({
    region: aws_region,
