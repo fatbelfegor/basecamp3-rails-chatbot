@@ -1,4 +1,4 @@
-# aws_secret_file: path to *.yml with AWS_ACCESS_KEY_ID and AWS_SECRET_KEY_ID if exist
+# aws_secret_file: path to *.yml file with AWS_ACCESS_KEY_ID and AWS_SECRET_KEY_ID if exist
 aws_secret_file = Rails.configuration.service['aws_secret_file']
 aws_region = Rails.configuration.service['aws_secret_file']
 
