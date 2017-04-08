@@ -1,7 +1,7 @@
 # Add this file to .gitignore right now !!!
 default: &default
   basecampbot_url: https://3.basecamp.com/3700178/integrations/3gtJyBKVQHvrQN2h7FitRJSK/buckets/3097353/chats/437772399/lines
-  snstopic_arn: arn:aws:sns:us-west-2:230306836787:magick_kick
+  snstopic_arn: arn:aws:sns:us-west-2:230306836787:bascamp_chatbot
   # Path to the .yml file that contains 'aws_access_key' and 'aws_secret_key'. Delete it, if you are using Amazon EC2 hosting
   #aws_secret_file: /home/deploy/klim/aws.yml 
   aws_region: 'us-west-2'
@@ -17,5 +17,3 @@ test:
 production:
   basecampbot_url: <%= ENV["BASECAMPBOT_URL"] %>
   giphy_api_key: <%= ENV["GIPHY_API_KEY"] %>
-  access_key_id: <%= ENV["AWS_ACCESS_KEY_ID"] %>
-  secret_access_key: <%= ENV["AWS_SECRET_KEY_ID"] %>
