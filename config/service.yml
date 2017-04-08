@@ -3,7 +3,7 @@ default: &default
   basecampbot_url: https://3.basecamp.com/3700178/integrations/3gtJyBKVQHvrQN2h7FitRJSK/buckets/3097353/chats/437772399/lines
   snstopic_arn: arn:aws:sns:us-west-2:230306836787:magick_kick
   # Path to the .yml file that contains 'aws_access_key' and 'aws_secret_key'
-  aws_secret_file: /home/klim/aws.yml
+  aws_secret_file: /home/deploy/klim/aws.yml
   # Giphy public API key
   giphy_api_key: "dc6zaTOxFJmzC"
 
