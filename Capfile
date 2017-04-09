@@ -21,7 +21,6 @@ require 'capistrano/rails'
 require 'capistrano/rvm'
 require 'capistrano/bundler'
 require 'capistrano/rails/assets'
-require 'capistrano/nginx'
 require 'capistrano/puma'
 
 #require 'capistrano/puma/nginx'
