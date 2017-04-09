@@ -23,7 +23,7 @@ require 'capistrano/bundler'
 require 'capistrano/rails/assets'
 require 'capistrano/nginx'
 require 'capistrano/puma'
-require 'capistrano/puma/nginx'
+#require 'capistrano/puma/nginx'
 
 # require "capistrano/rvm"
 # require "capistrano/rbenv"
