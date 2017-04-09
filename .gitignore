@@ -9,7 +9,7 @@
 /.idea
 /config/database.yml
 #/config/service.yml
-/config/secret.yml
+#/config/secret.yml
 
 
 # Ignore the default SQLite database.
