@@ -23,6 +23,8 @@ require 'capistrano/bundler'
 require 'capistrano/rails/assets'
 require 'capistrano/nginx'
 require 'capistrano/puma'
+require 'sshkit/sudo'
+
 #require 'capistrano/puma/nginx'
 
 # require "capistrano/rvm"
