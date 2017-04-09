@@ -6,10 +6,10 @@ set :repo_url, "git@github.com:fatbelfegor/basecamp3-rails-chatbot.git"
 set :branch, :capistrano
 set :deploy_to, '/home/deploy/basecamp3-rails-chatbot'
 set :pty, true
-set :linked_files, %w{config/application.yml}
+set :linked_files, %w{config/application.yml }
 
 # append :linked_files, 'config/database.yml', 'config/secrets.yml'
-set :linked_files, fetch(:linked_files, []).push('config/secrets.yml', 'config/puma.rb')
+#set :linked_files, fetch(:linked_files, []).push('config/puma.rb')
 
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
 
