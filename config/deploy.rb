@@ -3,6 +3,7 @@ lock "3.8.0"
 
 set :application, "basecamp3-rails-chatbot"
 set :pty, true
+set :use_sudo, false
 set :repo_url, "git@github.com:fatbelfegor/basecamp3-rails-chatbot.git"
 set :branch, :cap
 set :deploy_to, '/home/deploy/basecamp3-rails-chatbot'

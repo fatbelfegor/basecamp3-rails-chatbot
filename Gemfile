@@ -12,7 +12,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'aws-sdk', '~> 2'
 gem 'giphy'
-gem 'sshkit-sudo'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -32,5 +31,5 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rvm'
   gem 'capistrano3-nginx'
-  gem 'capistrano-upload-config'
+  #gem 'capistrano-upload-config'
 end
