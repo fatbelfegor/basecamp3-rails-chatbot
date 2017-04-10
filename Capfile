@@ -13,6 +13,7 @@ require 'capistrano/rails'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/puma'
+install_plugin Capistrano::Puma  # Default puma tasks
 require 'capistrano/rails/assets'
 #require 'capistrano/puma/nginx'
 
